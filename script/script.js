@@ -14,3 +14,7 @@ addButton.addEventListener("click", function () {
   todoList.push(newTodo);
   console.log(todoList);
 });
+
+function displayMessages (){
+    
+}
