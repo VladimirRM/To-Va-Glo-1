@@ -16,5 +16,7 @@ addButton.addEventListener("click", function () {
 });
 
 function displayMessages (){
-    
+    todoList.forEach(function(item, index){
+
+    })
 }
