@@ -12,11 +12,11 @@ addButton.addEventListener("click", function () {
   };
 
   todoList.push(newTodo);
-  console.log(todoList);
+  displayMessages ()
 });
 
 function displayMessages (){
     todoList.forEach(function(item, index){
-
+console.log(item)
     })
 }
